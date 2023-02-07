@@ -118,7 +118,7 @@ export default function Home() {
     <Box component="main">
       <Container sx={{my: 5, width: "100%"}}>
         <Box sx={{m: 3}}>
-          <Typography variant="h4">東北大学生用GPA判定</Typography>
+          <Typography variant="h4">東北大学生用GPA計算</Typography>
           <Typography variant="body2">
             学務情報システムの成績の表の中身(黄色と白の列)をすべてコピーして下に貼り付けてください。また、年度と期間を指定することでそれぞれのGPAを算出することができます。期間を指定しなければその年度の全ての科目のGPAが算出されます。
           </Typography>
