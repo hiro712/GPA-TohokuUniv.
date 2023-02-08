@@ -153,7 +153,7 @@ export default function Home() {
             学務情報システムの成績の表の中身(黄色と白の列)をすべてコピーして下に貼り付けてください。
             また、年度と期間を指定することでそれぞれのGPAを算出することができます。
             期間を指定しなければその年度の全ての科目のGPAが算出されます。
-            期間は半角カンマ(",")区切りで複数入力できます。
+            期間は半角カンマ(&quot;,&quot;)区切りで複数入力できます。
           </Typography>
         </Box>
         <Box sx={{mx: {xs: 1, md: 3}, my: 3}}>
@@ -210,7 +210,7 @@ export default function Home() {
         <Box sx={{mx: {xs: 1, md: 3}, my: 3}}>
           <Typography variant="body2">バージョン情報⬇︎</Typography>
           <Typography variant="body2">Ver.1.0: 公開しました。</Typography>
-          <Typography variant="body2">Ver.1.1: 期間を","区切りで複数選択可能にしました。また、取得単位数等を表示しました。</Typography>
+          <Typography variant="body2">Ver.1.1: 期間を&quot;,&quot;区切りで複数選択可能にしました。また、取得単位数等を表示しました。</Typography>
         </Box>
       </Container>
     </Box>
