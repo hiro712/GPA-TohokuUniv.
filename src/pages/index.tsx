@@ -174,8 +174,8 @@ export default function Home() {
           <Typography fontWeight="bold">AA: {subDetail[0]} A: {subDetail[1]} B: {subDetail[2]} C: {subDetail[3]} その他: {subDetail[4]}</Typography>
         </Box>
         {classrooms.length != 0 && (
-          <Box sx={{mx: {xs: 1, md: 3}, my: 3}}>
-            <TableContainer>
+          <Box sx={{mx: {xs: 1, md: 3}, my: 3, overflowX: "auto"}}>
+            <TableContainer sx={{minWidth: "600px"}}>
               <Table>
                 <TableHead>
                   <TableRow>
